@@ -29,6 +29,7 @@ export default function HeroSection(){
                         Get Started
                     </button>
                     </div>
+                    
             </div>
         </section>
     )
