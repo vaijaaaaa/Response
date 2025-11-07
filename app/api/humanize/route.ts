@@ -37,14 +37,32 @@ export async function POST(request: NextRequest) {
         const genAI = new GoogleGenerativeAI(userApiKey);
         const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
-        const tonePrompts = {
-            casual: `Rewrite the following AI-generated text to sound natural, casual, and conversational. Remove any robotic patterns, make it relaxed and friendly like a real person talking. Don't be overly formal. Add casual language and natural flow:
-        ${text}`,
-            professional: `Rewrite the following AI-generated text to sound natural yet professional and polished. Remove robotic AI patterns while maintaining a formal, business-appropriate tone. Make it sound like it was written by an experienced professional:
-        ${text}`,
-            friendly: `Rewrite the following AI-generated text to sound warm, approachable, and friendly. Remove AI-like patterns and make it conversational yet polite. Add a human touch with natural warmth:
-        ${text}`
+       const tonePrompts = {
+        casual: `
+        Make this sound like a real person talking — relaxed, easygoing, and natural. 
+        No stiff structure, no formal vibe, just everyday language with smooth flow. 
+        Keep it light, confident, and effortless to read. 
+
+        ${text}
+        `,
+
+        professional: `
+        Give this a natural, polished tone that feels confident and human. 
+        Keep it clear and composed, like something written by an experienced professional. 
+        No robotic phrasing — just smooth and thoughtful writing. 
+
+        ${text}
+        `,
+
+        friendly: `
+        Make this feel warm, kind, and approachable — like a person who genuinely cares. 
+        Keep it conversational and light with a gentle, human rhythm. 
+        Avoid stiff or overly perfect sentences, just easy flow. 
+
+        ${text}
+        `
         };
+
 
         const prompt = tonePrompts[tone as keyof typeof tonePrompts];
         const result = await model.generateContent(prompt);
