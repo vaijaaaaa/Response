@@ -69,7 +69,7 @@ export default function Navbar() {
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="text-black hover:text-gray-700 font-medium transition-colors"
+                className="text-black hover:text-gray-700 font-medium transition-colors cursor-pointer"
               >
                 API Key
               </button>
