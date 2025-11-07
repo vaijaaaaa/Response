@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl">💡</span>
+            <span className="text-xl"></span>
             <span className="text-lg font-semibold text-black">Response</span>
           </Link>
 
@@ -16,6 +16,18 @@ export default function Navbar() {
             className="text-black hover:text-gray-700 font-medium transition-colors"
           >
             Home
+          </Link>
+          <Link
+          href="#chat"
+          className="text-black hover:text-gray-700 font-medium transition-colors"
+          >
+          Chat
+          </Link>
+          <Link
+          href="#chat"
+          className="text-black hover:text-gray-700 font-medium transition-colors"
+          >
+          API Key
           </Link>
         </div>
       </div>
