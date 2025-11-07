@@ -1,18 +1,18 @@
-# 💀 Response - AI Text Humanizer
+# Response - AI Text Humanizer
 
 Transform AI-generated text into natural, human-like writing. Perfect for job applications, emails, essays, and more.
 
-## ✨ Features
+## Features
 
-- 🎯 **Three Tone Options**: Casual, Professional, and Friendly writing styles
-- 🤖 **Powered by Google Gemini AI**: Advanced AI for natural text transformation
-- ⚡ **Real-time Processing**: Instant humanization of your AI-generated content
-- 🔒 **Privacy First**: Your API key is stored locally in your browser
-- 💬 **Chat Interface**: Clean, intuitive chat-style interface like ChatGPT/Claude
-- 📋 **Copy to Clipboard**: Easy copy functionality for humanized text
-- 🎨 **Minimal Design**: Clean black & white aesthetic
+- **Three Tone Options**: Casual, Professional, and Friendly writing styles
+- **Powered by Google Gemini AI**: Advanced AI for natural text transformation
+- **Real-time Processing**: Instant humanization of your AI-generated content
+- **Privacy First**: Your API key is stored locally in your browser
+- **Chat Interface**: Clean, intuitive chat-style interface like ChatGPT/Claude
+- **Copy to Clipboard**: Easy copy functionality for humanized text
+- **Minimal Design**: Clean black & white aesthetic
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ npm run dev
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎮 Usage
+## Usage
 
 1. **Navigate to Chat**: Click "Get Started" or go to `/chat`
 2. **Configure API Key** (Optional): Click "API Key" in navbar to add your personal Gemini API key
@@ -53,7 +53,7 @@ npm run dev
 5. **Get Results**: Receive natural, humanized text instantly
 6. **Copy**: Use the copy button to save the result
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js 15](https://nextjs.org/) with App Router
 - **Language**: TypeScript
@@ -62,7 +62,7 @@ npm run dev
 - **UI Components**: Custom components with Sonner for toasts
 - **Font**: Space Grotesk
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 response/
@@ -86,14 +86,14 @@ response/
 └── package.json                   # Dependencies
 ```
 
-## 🔑 API Key Configuration
+## API Key Configuration
 
 You can use Response in two ways:
 
 1. **Server-side API Key**: Add `GEMINI_API_KEY` to `.env.local` (default for all users)
 2. **Client-side API Key**: Users can add their own API key via the "API Key" dropdown in the navbar (stored in localStorage)
 
-## 🌟 Features in Detail
+## Features in Detail
 
 ### Tone Options
 
@@ -110,7 +110,7 @@ You can use Response in two ways:
 5. Quality check removes robotic patterns
 6. Get perfectly humanized text
 
-## 📝 Environment Variables
+## Environment Variables
 
 Create a `.env.local` file with:
 
@@ -120,37 +120,9 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 Get your free API key from [Google AI Studio](https://makersuite.google.com/app/apikey).
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
+## Author
 
 **Vaiju Patil**
 
 - GitHub: [@vaijaaaaa](https://github.com/vaijaaaaa)
 - LinkedIn: [Vaiju Patil](https://www.linkedin.com/in/vaiju-patil-585555310/)
-
-## 🙏 Acknowledgments
-
-- Powered by [Google Gemini AI](https://ai.google.dev/)
-- Built with [Next.js](https://nextjs.org/)
-- UI inspired by modern AI chat interfaces
-
-## ⭐ Star on GitHub
-
-If you found this helpful, please consider giving it a star on [GitHub](https://github.com/vaijaaaaa/Response)!
-
----
-
-Made with 💀 by Vaiju
