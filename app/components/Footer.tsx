@@ -38,7 +38,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://twitter.com/yourhandle"
+              href="https://x.com/Vaijaaaaaaa"
               target="_blank"
               className="text-black hover:text-black transition-colors"
               aria-label="Twitter"
