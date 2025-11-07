@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-2">
-            <span className="text-xl"></span>
+            <span className="text-xl">💀</span>
             <span className="text-sm text-black">
               © {currentYear} Response. Built by Vaiju
             </span>
@@ -27,7 +27,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/vaiju-patil-585555310/"
               target="_blank"
               className="text-black hover:text-black transition-colors"
               aria-label="LinkedIn"
