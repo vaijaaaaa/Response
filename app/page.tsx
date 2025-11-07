@@ -1,3 +1,4 @@
+import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 
 
@@ -6,7 +7,7 @@ export default function Home() {
       
     <div>
       <Navbar/>
-      <h1>Hello</h1>
+      <HeroSection/>
     </div>
   );
 }
